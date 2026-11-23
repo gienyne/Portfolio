@@ -1,0 +1,15 @@
+# Windows / macOS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+*.log
+*.tmp
+node_modules/
+.env
+.env.*
+!.env.example

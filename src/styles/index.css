@@ -1,0 +1,19 @@
+@import "variables.css";
+@import "reset.css";
+@import "layout.css";
+
+@import "../components/Button/Button.css";
+@import "../components/Media/Media.css";
+@import "../components/Sidebar/Sidebar.css";
+@import "../components/Chat/Chat.css";
+@import "../components/Hero/Hero.css";
+@import "../components/McuCard/McuCard.css";
+@import "../components/TechStack/TechStack.css";
+@import "../components/ProjectCard/ProjectCard.css";
+@import "../components/ContactInfo/ContactInfo.css";
+@import "../components/ContactForm/ContactForm.css";
+
+@import "../pages/Home/Home.css";
+@import "../pages/Projects/Projects.css";
+@import "../pages/Contact/Contact.css";
+@import "../pages/ProjectDetail/ProjectDetail.css";

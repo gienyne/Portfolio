@@ -1,0 +1,55 @@
+.mcu-card {
+  justify-self: end;
+  width: 100%;
+  max-width: 380px;
+  padding: 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.mcu-card-title {
+  margin-bottom: 1rem;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.mcu-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.mcu-card-item {
+  padding: 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.mcu-card-item i {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--color-accent);
+  font-size: 1.3rem;
+}
+
+.mcu-card-item strong {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.mcu-card-item span {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .mcu-card {
+    justify-self: stretch;
+    max-width: none;
+  }
+}

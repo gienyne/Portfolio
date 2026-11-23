@@ -1,0 +1,15 @@
+.contact-info-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.9rem;
+}
+
+.contact-info-text {
+  margin-bottom: 1.25rem;
+  color: var(--color-muted);
+}
+
+.contact-info-mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
