@@ -1,4 +1,3 @@
-import { Button } from "../Button/Button.js";
 import { Media } from "../Media/Media.js";
 import { PROFILE } from "../../data/profile.js";
 import { t, getLang, setLang } from "../../i18n/index.js";
@@ -39,8 +38,6 @@ export function Sidebar(activeNav) {
         </div>
 
         <nav class="sidebar-nav">${links}</nav>
-
-        ${Button({ label: t("btnCV"), href: PROFILE.cv, icon: "fas fa-download", download: true, extraClass: "sidebar-cv" })}
       </div>
 
       <div class="sidebar-footer">

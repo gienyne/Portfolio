@@ -4,8 +4,7 @@ export const PROFILE = {
   email: "ntofeunyatchadimitry@gmail.com",
   github: "https://github.com/gienyne",
   linkedin: "https://www.linkedin.com/in/dimitry-ntofeu-nyatcha-a8619a377/",
-  photo: "assets/images/image.jpg",
-  cv: "assets/cv/Lebenslauf.pdf",
+  photo: "assets/images/profil.png",
 
   formEndpoint: "https://formspree.io/f/moedkkkk",
 };

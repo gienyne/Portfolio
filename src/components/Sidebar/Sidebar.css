@@ -87,11 +87,6 @@
   box-shadow: inset 2px 0 0 var(--color-accent);
 }
 
-.sidebar-cv {
-  width: 100%;
-  margin-top: 1.5rem;
-}
-
 .sidebar-footer {
   display: flex;
   flex-direction: column;
@@ -158,11 +153,6 @@
 
   .sidebar-nav {
     flex-direction: row;
-  }
-
-  .sidebar-cv {
-    width: auto;
-    margin-top: 0;
   }
 
   .sidebar-footer {

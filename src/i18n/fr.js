@@ -77,8 +77,6 @@ export const fr = {
 
       [["contact", "joindre", "email", "e-mail", "mail", "message", "téléphone"], "Tu peux contacter Dimitry via le formulaire de contact ou par e-mail à l'adresse ntofeunyatchadimitry@gmail.com."],
 
-      [["cv", "curriculum", "vitae", "candidature"], "Tu peux télécharger le CV de Dimitry au format PDF en cliquant sur le bouton « Télécharger le CV » dans la navigation."],
-
       [["gateway", "sparkplug", "opc", "smart factory", "industrie", "moulage par injection", "edge"], "Le projet Industrial Edge Gateway regroupe des données provenant de capteurs ESP32 et de machines industrielles connectées via OPC UA, notamment une machine de moulage par injection de la Smart Factory Mittelhessen. Les données sont ensuite publiées sous forme de messages Sparkplug B via MQTT. Retrouve plus de détails sur la page du projet."],
 
       [["freertos", "stm32", "senselink", "firmware", "rtos", "temps réel"], "Dimitry a développé SenseLink avec FreeRTOS sur un STM32 (Cortex-M0, 8 Ko de RAM). Le projet utilise quatre tâches, une communication par files d'attente et un bus I²C protégé par mutex."],
